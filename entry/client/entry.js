@@ -1,5 +1,5 @@
 // Methods for optimistic updates
-import 'TodoApp/todo-methods';
+import 'TodoAppTS/todo-methods';
 
 import './routes';
 

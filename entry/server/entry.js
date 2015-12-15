@@ -1,2 +1,3 @@
-import 'TodoApp/todo-methods';
-import 'TodoApp/server/todo-subscriptions'
+import 'TodoAppTS/todo-methods';
+import 'TodoAppTS/server/todo-subscriptions'
+import 'TodoAppTS/server/todo-subscriptions2'

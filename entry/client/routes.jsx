@@ -1,3 +1,3 @@
-import 'TodoApp/client/routes';
+import 'TodoAppTS/client/routes';
 
 FlowRouter.initialize();

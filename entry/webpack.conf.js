@@ -2,6 +2,7 @@ var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
+  devtool: 'eval', // eval, source-map, eval-source-map
   externals: {
     // Make sure we use Meteor package for jQuery and react
     'jquery': '$',
@@ -19,6 +20,6 @@ module.exports = {
   },
   resolve: {
     root: path.join(__dirname, '..', 'modules'),
-    extensions: ['', '.js', '.jsx', '.json', '.css']
+    extensions: ['', '.js', '.jsx', '.json', '.css', '.ts', '.tsx']
   }
 };
